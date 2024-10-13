@@ -10,7 +10,7 @@ export function Heading() {
           <div className={styles.contact}>
             <p>
               +7 996 385 52 20
-              <Button color="#45494D" text="Связаться с нами" borderColor="#CFDAE5" isBold={true} />
+              <Button color="#45494D" text="Связаться с нами" borderColor="#45494D" isBold={true} fontSize="13px"/>
             </p>
           </div>
         </div>

@@ -1,16 +1,47 @@
 .hero {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    align-items: flex-start; /* Выравниваем изображение и текст по верхнему краю */
     max-width: 1200px;
     margin: 2rem auto;
+    width: 100%;
+    gap: 2rem; /* Расстояние между изображением и текстом */
 }
 
-.heroImage img {
-    max-width: 100%;
+.hero img {
+    width: 690px;
+    height: 460px;
     border-radius: 10px;
+    object-fit: cover;
 }
 
 .heroContent {
-    padding: 2rem;
+    display: flex;
+    flex-direction: column; /* Вертикальное расположение текста и кнопки */
+    justify-content: flex-start;
+    padding: 2rem 0;
+    font-size: 48pt;
+}
+
+.heroContent h1 {
+    font-size: 48px;
+    line-height: 1.2;
+    margin-bottom: 1rem;
+}
+
+.heroContent p {
+    font-size: 24px;
+    line-height: 1.5;
+    margin-bottom: 1rem;
+    color: #45494D;
+}
+
+.heroContent button {
+    font-size: 16px;
+    padding: 1rem 2rem;
+    border-radius: 36px;
+}
+
+.heroContent Button {
+    width: 268px;
+    height: 59px;
 }

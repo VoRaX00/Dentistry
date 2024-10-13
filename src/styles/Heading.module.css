@@ -13,7 +13,6 @@
 
 .contact {
     display: flex;
-    align-items: center;
 }
 
 .contact p {
@@ -28,5 +27,7 @@
     background-color: transparent;
     cursor: pointer;
     border-radius: 36px;
-    margin-left: 1rem; /* Отступ между номером телефона и кнопкой */
+    width: 238px;
+    height: 60px;
+    margin-left: 1rem;
 }
