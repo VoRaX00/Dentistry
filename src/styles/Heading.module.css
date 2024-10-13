@@ -1,0 +1,35 @@
+/* components/Header.module.css */
+
+.header {
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+    padding: 1rem 0;
+}
+
+.headerContent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.contact {
+    display: flex; /* Позволяет выровнять элементы по горизонтали */
+    align-items: center; /* Выравнивает по вертикали */
+}
+
+.contact p {
+    margin: 0; /* Убирает отступы у параграфа */
+    color: #C2C9D6; /* Устанавливаем цвет номера телефона */
+}
+
+.contact button {
+    color: black;
+    padding: 0.5rem 1rem;
+    border: 1px solid black; /* Добавление границы для кнопки */
+    background-color: transparent; /* Делаем фон прозрачным */
+    cursor: pointer;
+    border-radius: 36px;
+    margin-left: 1rem; /* Отступ между номером телефона и кнопкой */
+}
