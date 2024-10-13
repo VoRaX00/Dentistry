@@ -2,39 +2,6 @@
     font-family: Inter, sans-serif;
 }
 
-.header {
-    background-color: #fff;
-    border-bottom: 1px solid #ddd;
-    padding: 1rem 0;
-}
-
-.headerContent {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    max-width: 1200px;
-    margin: 0 auto;
-}
-
-.contact {
-    display: flex;
-    align-items: center;
-}
-
-.contact p {
-    margin: 0;
-}
-
-.contact button {
-    color: black;
-    padding: 0.5rem 1rem;
-    border: 1px solid black;
-    background-color: transparent;
-    cursor: pointer;
-    border-radius: 36px;
-    margin-left: 1rem;
-}
-
 .hero {
     display: flex;
     justify-content: space-between;

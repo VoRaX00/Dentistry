@@ -2,6 +2,8 @@ import {Inter} from "next/dist/compiled/@next/font/dist/google";
 import styles from "../styles/Home.module.css"
 import Head from "next/head";
 import {Heading} from "@/components/Heading";
+import {Button} from "@/components/Button";
+import {Hero} from "@/components/Hero";
 
 export default function Home() {
   return (
@@ -13,18 +15,7 @@ export default function Home() {
       </Head>
 
       <Heading/>
-
-      <section className={styles.hero}>
-        <div className={styles.heroImage}>
-          <img src="/hole.png" alt="Clinic"/>
-        </div>
-        <div className={styles.heroContent}>
-          <h2>Первая комплексная поликлиника города Хэйхэ</h2>
-            <p>Европейское качество, китайские специалисты — <span
-              className={styles.highlight}>лучшая улыбка</span></p>
-          <button>Узнать подробнее</button>
-        </div>
-      </section>
+      <Hero/>
 
       <section className={styles.process}>
         <h2>Как это происходит?</h2>
