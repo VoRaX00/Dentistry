@@ -10,6 +10,12 @@
     font-weight: bold;
 }
 
-.cards {
+.card {
     display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.allCards {
+    row-gap: 20px;
 }
