@@ -1,10 +1,9 @@
 .hero {
     display: flex;
-    align-items: flex-start; /* Выравниваем изображение и текст по верхнему краю */
-    max-width: 1200px;
-    margin: 2rem auto;
-    width: 100%;
-    gap: 2rem; /* Расстояние между изображением и текстом */
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    margin: 0 auto;
 }
 
 .hero img {
@@ -12,14 +11,16 @@
     height: 460px;
     border-radius: 10px;
     object-fit: cover;
+    margin-right: 20px;
+    max-width: 1400px;
 }
 
 .heroContent {
     display: flex;
-    flex-direction: column; /* Вертикальное расположение текста и кнопки */
-    justify-content: flex-start;
-    padding: 2rem 0;
-    font-size: 48pt;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-left: 50px;
 }
 
 .heroContent h1 {
@@ -32,16 +33,29 @@
     font-size: 24px;
     line-height: 1.5;
     margin-bottom: 1rem;
+    margin-top: -5px;
     color: #45494D;
+}
+
+.heroDiv {
+    margin-bottom: 80px;
 }
 
 .heroContent button {
     font-size: 16px;
     padding: 1rem 2rem;
     border-radius: 36px;
+    background-color: #2E8AE5;
+    color: #E6F2FF;
+    border: none;
 }
 
 .heroContent Button {
+    margin-top: -25px;
     width: 268px;
     height: 59px;
+}
+
+.heroText {
+    font-size: 24px;
 }
