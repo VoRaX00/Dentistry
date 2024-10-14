@@ -4,6 +4,7 @@ import Head from "next/head";
 import {Heading} from "@/components/Heading";
 import {Hero} from "@/components/Hero";
 import {HowIt} from "@/components/HowIt";
+import {Services} from "@/components/Services";
 
 export default function Home() {
   return (
@@ -17,8 +18,7 @@ export default function Home() {
       <Heading/>
       <Hero/>
       <HowIt/>
-
-
+      <Services/>
     </div>
   );
 }
