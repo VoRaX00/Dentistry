@@ -1,0 +1,39 @@
+.card {
+    display: flex;
+    flex-direction: column; /* Вертикальное расположение */
+    justify-content: space-between;
+    align-items: flex-start;
+    background-color: #f6fafb;
+    border-radius: 20px;
+    padding: 15px;
+    width: 250px;
+    height: 100px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+.iconTextContainer {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.icon {
+    width: 36px;
+    height: 36px;
+}
+
+.text {
+    font-size: 24px;
+    font-weight: bold;
+    color: #000;
+}
+
+.number {
+    position: absolute;
+    align-self: flex-end;
+    font-size: 36px;
+    width: 37px;
+    height: 40px;
+    color: #b3d4fc;
+}

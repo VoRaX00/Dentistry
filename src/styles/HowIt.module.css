@@ -1,0 +1,9 @@
+.howIt {
+    margin-left: 40px;
+}
+
+.howItHeader {
+    display: flex;
+    font-size: 36px;
+    font-weight: bold;
+}
