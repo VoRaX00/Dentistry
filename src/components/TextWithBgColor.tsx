@@ -7,6 +7,8 @@ type TextWithBackgroundProps = {
     text: string;
     isBold?: boolean;
     fontSize?: string;
+    width?: string;
+    height?: string;
 };
 
 const TextWithBackground: React.FC<TextWithBackgroundProps> = ({
@@ -15,6 +17,8 @@ const TextWithBackground: React.FC<TextWithBackgroundProps> = ({
     text,
     isBold = false,
     fontSize = '26',
+    width = '203px',
+    height = '40px',
 }) => {
     return (
         <span
@@ -25,6 +29,8 @@ const TextWithBackground: React.FC<TextWithBackgroundProps> = ({
                 fontSize,
                 padding: '0.5rem 1rem',
                 fontWeight: isBold ? 'bold' : 'normal',
+                width,
+                height
             }}
         >
       {text}

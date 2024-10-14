@@ -8,6 +8,12 @@ type ButtonProps = {
     text?: string;
     isBold?: boolean;
     fontSize?: string;
+    width?: string;
+    height?: string;
+    whiteSpace?: string;
+    textAlign?: string;
+    display?: string;
+    justifyContent?: string;
 }
 
 export const Button: React.FC<ButtonProps> = ({
@@ -17,6 +23,11 @@ export const Button: React.FC<ButtonProps> = ({
   text,
   isBold = false,
   fontSize = '13px',
+  width = '238px',
+  height = '60px',
+  whiteSpace = 'nowrap',
+  display = 'inline',
+  justifyContent = 'center'
 }) => {
     return (
       <button
@@ -24,6 +35,11 @@ export const Button: React.FC<ButtonProps> = ({
         style={{backgroundColor, border: '1px solid', borderColor, color,
             fontWeight: isBold ? 'bold' : 'normal',
             fontSize,
+            width,
+            whiteSpace,
+            justifyContent,
+            display,
+            height,
         }}
       >
         {text}

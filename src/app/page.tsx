@@ -3,6 +3,7 @@ import styles from "../styles/Home.module.css"
 import Head from "next/head";
 import {Heading} from "@/components/Heading";
 import {Hero} from "@/components/Hero";
+import {HowIt} from "@/components/HowIt";
 
 export default function Home() {
   return (
@@ -15,6 +16,9 @@ export default function Home() {
 
       <Heading/>
       <Hero/>
+      <HowIt/>
+
+
     </div>
   );
 }

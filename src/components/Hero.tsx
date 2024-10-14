@@ -16,11 +16,11 @@ export function Hero() {
                     <p className={styles.heroText}>
                         Европейское качество, китайские<br/>
                         специалисты — <TextWithBackground text='лучшая улыбка' backgroundColor="#FFE5EE" color="#FF6699"
-                                                          isBold={true} fontSize="24px"/>
+                                                          isBold={true} fontSize="24px" height="40px" width="203px"/>
                     </p>
                 </div>
                 <Button text="Узнать подробности" isBold={true} backgroundColor="#2E8AE5" color="#E6F2FF"
-                        fontSize="16px"/>
+                        fontSize="22px" width="268px" height="59px" display="flex"/>
             </div>
         </section>
     );
