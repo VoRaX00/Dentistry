@@ -1,9 +1,15 @@
 .howIt {
-    margin-left: 40px;
+    margin: 0 auto;
+    padding: 20px;
+    align-items: center;
 }
 
 .howItHeader {
     display: flex;
     font-size: 36px;
     font-weight: bold;
+}
+
+.cards {
+    display: flex;
 }
