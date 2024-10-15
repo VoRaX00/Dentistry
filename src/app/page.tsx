@@ -5,8 +5,8 @@ import {Heading} from "@/components/Heading";
 import {Hero} from "@/components/Hero";
 import {HowIt} from "@/components/HowIt";
 import {Services} from "@/components/Services";
-import {Guarantees} from "@/components/Guarantees";
 import {Contacts} from "@/components/Contacts";
+import {Footer} from "@/components/Footer";
 
 export default function Home() {
   return (
@@ -22,6 +22,7 @@ export default function Home() {
       <HowIt/>
       <Services/>
       <Contacts/>
+      <Footer/>
     </div>
   );
 }
