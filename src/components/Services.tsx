@@ -1,5 +1,6 @@
 import styles from "@/styles/Services.module.css"
 import {Service} from "@/components/Service";
+import {Bonuses} from "@/components/Bonuses";
 
 export function Services() {
     return (
@@ -12,14 +13,7 @@ export function Services() {
                 <Service text="Лечение болезней зубов, дёсен, кариеса, пародонтология" price={1500}/>
                 <Service text="Исправление прикуса, отбеливание зубов" price={2500}/>
             </div>
-            <div className={styles.bonuses}>
-                <div className={styles.text}>
-                    <span>Мы предоставляем</span>
-                </div>
-                <div className={styles["bonus-item"]}>Бесплантная виза</div>
-                <div className={styles["bonus-item"]}>Бесплатная гостиница</div>
-                <div className={styles["bonus-item"]}>Русскоговорящий водитель в Хэйхэ</div>
-            </div>
+            <Bonuses/>
         </div>
     )
 }
