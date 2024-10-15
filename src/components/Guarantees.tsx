@@ -1,16 +1,19 @@
 import styles from "@/styles/Guarantees.module.css"
 import {Messenger} from "@/components/Messenger";
+import {ContactUs} from "@/components/ContactUs";
 export function Guarantees() {
     return (
         <div className={styles.guarantees}>
-            <div className={styles.text}>
-                <span>Связаться с нами</span>
-            </div>
-            <div className={styles.number}>
-                <span>+7 996 385 52 20</span>
-            </div>
-            <Messenger path="/messengers/telegram.png" text="Telegram" />
-            <Messenger path="/messengers/whatsApp.png" text="WhatsApp" />
+            <span className={styles.header}>Гарантии</span>
+            <span className={styles.text} style={{
+                marginBottom: "20px",
+            }}>Мы работаем на качество и готовы за него<br/>
+                отвечать
+            </span>
+            <span className={styles.text}>В ситуации гарантийного случая мы полностью<br/>
+                оплатить вам поездку в клинику и вам будет<br/>
+                проведено лечение по гарантийному случаю
+            </span>
         </div>
     )
 }

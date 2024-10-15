@@ -6,6 +6,7 @@ import {Hero} from "@/components/Hero";
 import {HowIt} from "@/components/HowIt";
 import {Services} from "@/components/Services";
 import {Guarantees} from "@/components/Guarantees";
+import {Contacts} from "@/components/Contacts";
 
 export default function Home() {
   return (
@@ -20,7 +21,7 @@ export default function Home() {
       <Hero/>
       <HowIt/>
       <Services/>
-      <Guarantees/>
+      <Contacts/>
     </div>
   );
 }

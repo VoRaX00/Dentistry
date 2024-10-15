@@ -1,1 +1,25 @@
+.compareUs {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #CFDAE5;
+    align-items: flex-start;
+    background-color: transparent;
+    border-radius: 40px;
+    padding: 30px;
+    margin-bottom: 45px;
+    width: 675px;
+    height: 325px;
+}
 
+.number {
+    font-weight: bold;
+    font-size: 48px;
+    color: #2E8AE5;
+    margin-bottom: 45px;
+}
+
+.text {
+    font-weight: bold;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
