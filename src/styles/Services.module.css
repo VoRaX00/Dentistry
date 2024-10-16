@@ -3,9 +3,8 @@
     justify-content: space-between;
     align-items: flex-start;
     margin: 0 auto;
-    padding-right: 40px;
+    padding-top: 60px;
     width: 100%;
-    max-width: 1360px;
     gap: 20px;
 }
 

@@ -10,19 +10,20 @@ import {Footer} from "@/components/Footer";
 
 export default function Home() {
   return (
-    <div className={styles.container}>
-      <Head>
-        <title>Стоматология Sekvoya Stom</title>
-        <meta name="description" content="Первая комплексная поликлиника города Хэйхэ" />
-        <link rel="icon" href="tooth.png" />
-      </Head>
-
-      <Heading/>
-      <Hero/>
-      <HowIt/>
-      <Services/>
-      <Contacts/>
-      <Footer/>
-    </div>
+      <>
+        <div className={styles.container}>
+            <Head>
+                <title>Стоматология Sekvoya Stom</title>
+                <meta name="description" content="Первая комплексная поликлиника города Хэйхэ" />
+                <link rel="icon" href="tooth.png" />
+            </Head>
+            <Heading/>
+            <Hero/>
+            <HowIt/>
+            <Services/>
+            <Contacts/>
+        </div>
+        <Footer/>
+      </>
   );
 }

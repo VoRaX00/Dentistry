@@ -1,3 +1,5 @@
+"use client";
+
 import styles from "@/styles/Button.module.css"
 import React from "react";
 
@@ -14,7 +16,9 @@ type ButtonProps = {
     textAlign?: string;
     display?: string;
     justifyContent?: string;
+    onClick?: () => void;
 }
+
 
 export const Button: React.FC<ButtonProps> = ({
   backgroundColor = 'transparent',
@@ -27,7 +31,8 @@ export const Button: React.FC<ButtonProps> = ({
   height = '60px',
   whiteSpace = 'nowrap',
   display = 'inline',
-  justifyContent = 'center'
+  justifyContent = 'center',
+  onClick = () => null,
 }) => {
     return (
       <button
@@ -41,6 +46,7 @@ export const Button: React.FC<ButtonProps> = ({
             display,
             height,
         }}
+        onClick={onClick}
       >
         {text}
       </button>

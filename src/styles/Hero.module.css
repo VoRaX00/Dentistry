@@ -1,7 +1,7 @@
 .hero {
     display: flex;
+    padding-top: 30px;
     align-items: center;
-    padding: 20px;
 }
 
 .hero img {
@@ -33,7 +33,7 @@
 }
 
 .heroDiv {
-    margin-bottom: 80px;
+    margin-bottom: 60px;
 }
 
 .heroContent button {
