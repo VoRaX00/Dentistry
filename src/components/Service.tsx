@@ -12,9 +12,8 @@ export const Service: React.FC<ServiceProps> = ( { text, price }) => {
                 <span>{text}</span>
             </div>
             <div className={styles.price}>
-                <span>от {price}</span>
+                <span>от {price} ₽</span>
             </div>
         </div>
-
     );
 }

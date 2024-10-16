@@ -7,18 +7,22 @@ export function Footer() {
                 <div className={styles.logo}>
                     <img src="logo.png" alt="logo"/>
                 </div>
-                <div className={styles.contacts}>
+
                     <a href="tel:+79963855220" className={styles.phone}>
                         +7 996 385 52 20
                     </a>
+
+                <div className={styles.bottomRow}>
+                    <div className={styles.contacts}>
                     <div className={styles.icons}>
-                        <img src="/messengers/telegram.png" alt="Telegram"/>
-                        <img src="/messengers/whatsApp.png" alt="WhatsApp"/>
+                            <img src="/messengers/telegram.png" alt="Telegram"/>
+                            <img src="/messengers/whatsApp.png" alt="WhatsApp"/>
+                        </div>
+                    </div>
+                    <div className={styles.copyright}>
+                        <p>© 2024 Sekvoya Stom</p>
                     </div>
                 </div>
-            </div>
-            <div className={styles.copyright}>
-                <p>© 2024 Sekvoya Stom</p>
             </div>
         </div>
     )
