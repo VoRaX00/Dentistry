@@ -1,3 +1,4 @@
+
 import styles from "@/styles/Card.module.css";
 
 type ContactCardProps = {
@@ -11,8 +12,8 @@ type ContactCardProps = {
 export const Card: React.FC<ContactCardProps> = ({ text, number, imgSrc, width, height }) => {
     return (
         <div className={styles.card} style={{
-            width,
-            height,
+            width: width,
+            maxHeight: height,
         }}>
             <div className={styles.iconTextContainer}>
                 <img src={imgSrc} alt="message" className={styles.icon}/>

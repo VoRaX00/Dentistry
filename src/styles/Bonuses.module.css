@@ -1,15 +1,17 @@
 .bonuses {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
     justify-content: flex-start;
     background-color: #FFE5EE;
     border-radius: 40px;
-    width: 488px;
+    width: 100%;
+    max-width: 488px;
     height: 444px;
     padding: 20px;
-    gap: 20px;
+    gap: 30px;
 }
+
 
 .bonuses .bonus-item {
     background-color: #FF6699;
@@ -19,26 +21,30 @@
     border-radius: 30px;
     display: inline;
     justify-content: center;
+    align-items: center;
     font-size: 36px;
     text-align: center;
-    transform: rotate(-3deg);
+    transform: rotate(-4deg);
     box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.1);
-    width: 360px;
+    width: 100%;
+    max-width: 360px;
     height: 122px;
     white-space: wrap;
 }
 
 .bonuses .bonus-item:nth-child(2) {
-    transform: rotate(3deg);
-    width: 322px;
+    transform: rotate(6deg);
+    width: 100%;
+    max-width: 322px;
     height: 58px;
     white-space: nowrap;
 }
 
 .bonuses .bonus-item:nth-child(3) {
-    width: 422px;
+    width: 100%;
+    max-width: 422px;
     height: 58px;
-    transform: rotate(-5deg);
+    transform: rotate(2deg);
     white-space: nowrap;
 }
 
@@ -46,4 +52,14 @@
     font-weight: bold;
     font-size: 36px;
     margin-bottom: 20px;
+    align-self: flex-start;
+}
+
+@media (max-width: 1390px) {
+    .bonuses {
+        width: 50%;
+    }
+    .bonuses .bonus-item {
+        width: 50%;
+    }
 }

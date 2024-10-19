@@ -27,7 +27,7 @@ const TextWithBackground: React.FC<TextWithBackgroundProps> = ({
                 backgroundColor,
                 color,
                 fontSize,
-                padding: '0.5rem 1rem',
+                padding: '0 10px',
                 fontWeight: isBold ? 'bold' : 'normal',
                 width,
                 height
