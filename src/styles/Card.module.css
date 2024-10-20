@@ -6,11 +6,14 @@
     align-items: flex-start;
     background-color: #f6fafb;
     border-radius: 20px;
-    padding: 15px;
+    padding: 20px;
+    box-sizing: border-box;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    flex: 1;
     position: relative;
-    max-width: 100%;
-    max-height: 100%;
+    min-width: 400px;
+    max-width: 675px;
+    transition: flex-basis 0.3s ease;
 }
 
 .iconTextContainer {
@@ -25,7 +28,7 @@
 }
 
 .text {
-    font-size: 24px;
+    font-size: 22px;
     font-weight: bold;
     color: #000;
 }

@@ -12,8 +12,8 @@ type ContactCardProps = {
 export const Card: React.FC<ContactCardProps> = ({ text, number, imgSrc, width, height }) => {
     return (
         <div className={styles.card} style={{
-            width: width,
-            maxHeight: height,
+            width,
+            height: height,
         }}>
             <div className={styles.iconTextContainer}>
                 <img src={imgSrc} alt="message" className={styles.icon}/>
