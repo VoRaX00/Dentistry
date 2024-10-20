@@ -1,22 +1,27 @@
 .container {
     display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    margin: 0 auto;
+    justify-content: flex-start;
     padding-top: 60px;
+    max-width: 100%;
     width: 100%;
     gap: 20px;
+    flex-wrap: nowrap;
+    box-sizing: border-box;
 }
 
 .services {
+    flex: 1;
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    justify-content: flex-end;
     background-color: #E6F2FF;
     border-radius: 40px;
     padding: 20px;
-    width: 862px;
-    height: 444px;
+    box-sizing: border-box;
+    max-width: 862px;
+    min-height: 444px;
+    width: 100%;
+    height: auto;
     margin-bottom: 20px;
 }
 
@@ -24,4 +29,12 @@
     font-weight: bold;
     font-size: 36px;
     margin-bottom: 20px;
+}
+
+@media (max-width: 1000px) {
+    .services, .bonuses {
+        width: 100%;
+        max-width: none;
+
+    }
 }

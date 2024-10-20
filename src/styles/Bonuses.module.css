@@ -1,23 +1,26 @@
 .bonuses {
+    flex: 1;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: flex-start;
+    box-sizing: border-box;
+    justify-content: center;
     background-color: #FFE5EE;
     border-radius: 40px;
-    width: 100%;
     max-width: 488px;
-    height: 444px;
+    width: 100%;
+    min-height: 444px;
+    height: auto;
     padding: 20px;
-    gap: 30px;
+    gap: 40px;
 }
 
 
-.bonuses .bonus-item {
+.bonus-item {
     background-color: #FF6699;
     color: white;
     font-weight: bold;
-    padding: 10px;
+    padding: 5px 10px;
     border-radius: 30px;
     display: inline;
     justify-content: center;
@@ -28,11 +31,11 @@
     box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.1);
     width: 100%;
     max-width: 360px;
-    height: 122px;
+    height: auto;
     white-space: wrap;
 }
 
-.bonuses .bonus-item:nth-child(2) {
+.bonus-item:nth-child(2) {
     transform: rotate(6deg);
     width: 100%;
     max-width: 322px;
@@ -40,7 +43,7 @@
     white-space: nowrap;
 }
 
-.bonuses .bonus-item:nth-child(3) {
+.bonus-item:nth-child(3) {
     width: 100%;
     max-width: 422px;
     height: 58px;
@@ -51,15 +54,6 @@
 .text {
     font-weight: bold;
     font-size: 36px;
-    margin-bottom: 20px;
     align-self: flex-start;
 }
 
-@media (max-width: 1390px) {
-    .bonuses {
-        width: 50%;
-    }
-    .bonuses .bonus-item {
-        width: 50%;
-    }
-}
