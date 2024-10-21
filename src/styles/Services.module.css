@@ -3,7 +3,9 @@
     justify-content: flex-start;
     padding-top: 60px;
     max-width: 100%;
+    min-height: 444px;
     width: 100%;
+    height: auto;
     gap: 20px;
     flex-wrap: nowrap;
     box-sizing: border-box;
@@ -22,7 +24,6 @@
     min-height: 444px;
     width: 100%;
     height: auto;
-    margin-bottom: 20px;
 }
 
 .text {

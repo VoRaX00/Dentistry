@@ -63,7 +63,7 @@
 }
 
 @media (max-width: 1042px) {
-    .heroContent {
-        max-width: 0;
+    .heroContent p{
+        font-size: 24px;
     }
 }

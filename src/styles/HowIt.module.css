@@ -19,3 +19,13 @@
     justify-content: flex-start;
     width: 100%;
 }
+
+@media (max-width: 1090px) {
+    .allCards {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(500px, 1fr));
+        row-gap: 10px;
+        column-gap: 10px;
+    }
+
+}

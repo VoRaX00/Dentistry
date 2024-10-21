@@ -1,6 +1,4 @@
 import styles from "@/styles/Guarantees.module.css"
-import {Messenger} from "@/components/Messenger";
-import {ContactUs} from "@/components/ContactUs";
 export function Guarantees() {
     return (
         <div className={styles.guarantees}>

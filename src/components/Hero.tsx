@@ -14,7 +14,7 @@ export function Hero() {
 
     return (
         <section className={styles.hero}>
-            <img src="/hole.png" alt="Clinic" className={styles.heroImage}/>
+            <img src="/hole.png" alt="Clinic" className={styles.heroImage} />
             <div className={styles.heroContent}>
                 <div className={styles.heroDiv}>
                     <h1 className={styles.heroTitle}>

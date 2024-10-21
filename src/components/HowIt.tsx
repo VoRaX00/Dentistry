@@ -21,7 +21,6 @@ export function HowIt() {
                 <Card text="Проведение лечения" number="07" imgSrc="icons/tooth.png" width="675px"
                       height="134px"/>
                 <Card text="Возвращение домой" number="08" imgSrc="icons/home.png" width="675px" height="134px"/>
-
             </div>
         </div>
     )
