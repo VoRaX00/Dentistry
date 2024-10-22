@@ -9,7 +9,7 @@ export function Heading() {
           <img src="logo.png" alt="logo" />
           <div className={styles.contact}>
             <p>
-              +7 996 385 52 20
+              <span>+7 996 385 52 20</span>
               <Button color="#45494D" text="Связаться с нами" borderColor="#45494D" isBold={true} fontSize="22px"/>
             </p>
           </div>
