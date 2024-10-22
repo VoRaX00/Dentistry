@@ -6,3 +6,9 @@
 .text {
     font-family: Inter-Variable, sans-serif;
 }
+
+@media (max-width: 1040px) {
+    .container {
+        padding: 30px;
+    }
+}

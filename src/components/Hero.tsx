@@ -23,7 +23,7 @@ export function Hero() {
                         города Хэйхэ
                     </h1>
                     <p className={styles.heroText}>
-                        Европейское качество, китайские<br/>
+                        Европейское качество, китайские
                         специалисты — <TextWithBackground text='лучшая улыбка' backgroundColor="#FFE5EE" color="#FF6699"
                                                           isBold={true} fontSize="24px" height="40px" width="203px"/>
                     </p>
