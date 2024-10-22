@@ -23,9 +23,17 @@
 @media (max-width: 1090px) {
     .allCards {
         display: grid;
-        grid-template-columns: repeat(2, minmax(500px, 1fr));
-        row-gap: 10px;
-        column-gap: 10px;
+        grid-template-columns: repeat(2, 1fr);
+        flex-shrink: 0;
+        gap: 10px;
     }
+}
 
+@media (max-width: 850px) {
+    .allCards {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+    }
 }
