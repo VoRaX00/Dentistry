@@ -16,7 +16,7 @@ type ButtonProps = {
     textAlign?: string;
     display?: string;
     justifyContent?: string;
-    onClick?: () => void;
+    funcClick?: () => void;
 }
 
 
@@ -32,7 +32,7 @@ export const Button: React.FC<ButtonProps> = ({
   whiteSpace = 'nowrap',
   display = 'inline',
   justifyContent = 'center',
-  onClick = () => null,
+  funcClick,
 }) => {
     return (
       <button
@@ -46,7 +46,7 @@ export const Button: React.FC<ButtonProps> = ({
             display,
             height,
         }}
-        onClick={onClick}
+        onClick={funcClick}
       >
         {text}
       </button>

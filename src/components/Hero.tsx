@@ -6,6 +6,7 @@ import {Button} from "@/components/Button";
 
 export function Hero() {
     const handleScroll = () => {
+        console.log("Кнопка нажата, начинаем прокрутку...");
         const section1 = document.getElementById("section1");
         if (section1) {
             section1.scrollIntoView({behavior: "smooth"});
@@ -28,7 +29,7 @@ export function Hero() {
                                                           isBold={true} fontSize="24px" height="40px" width="203px"/>
                     </p>
                 </div>
-                    <Button onClick={handleScroll} text="Узнать подробности" isBold={true} backgroundColor="#2E8AE5" color="#E6F2FF"
+                    <Button funcClick={handleScroll} text="Узнать подробности" isBold={true} backgroundColor="#2E8AE5" color="#E6F2FF"
                             fontSize="22px" width="268px" height="59px" display="flex"/>
             </div>
         </section>

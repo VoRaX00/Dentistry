@@ -4,7 +4,7 @@ import {Card} from "@/components/Card";
 
 export function HowIt() {
     return (
-        <div className={styles.howIt}>
+        <div id="section1" className={styles.howIt}>
             <div className={styles.howItHeader}>
                 <p>Как это происходит?</p>
             </div>

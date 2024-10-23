@@ -51,3 +51,9 @@
         width: 100%;
     }
 }
+
+@media (max-width: 550px) {
+    .text {
+        font-size: 28px;
+    }
+}

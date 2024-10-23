@@ -57,3 +57,27 @@
     font-size: 22px;
     color: #45494D;
 }
+
+@media (max-width: 550px) {
+    .phone {
+        font-size: 28px;
+    }
+}
+
+@media (max-width: 400px) {
+    .contacts {
+        height: auto !important;
+    }
+
+    .icons {
+        margin-top: 20px;
+    }
+    .bottomRow {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .copyright {
+        text-align: left;
+    }
+}
