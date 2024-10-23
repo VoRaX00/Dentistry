@@ -2,10 +2,18 @@
     font-family: Inter-Variable, sans-serif;
     padding: 40px;
     overflow: auto;
+    max-width: 1440px;
+    margin: 0 auto;
 }
 
 .text {
     font-family: Inter-Variable, sans-serif;
+}
+
+@media (max-width: 1920px) {
+    .container {
+        align-items: center;
+    }
 }
 
 @media (max-width: 1040px) {
