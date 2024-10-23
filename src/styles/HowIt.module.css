@@ -38,5 +38,10 @@
         justify-content: center;
         width: 100%;
     }
+}
 
+@media (max-width: 550px) {
+    .howItHeader {
+        font-size: 28px;
+    }
 }

@@ -52,3 +52,9 @@
         white-space: normal;
     }
 }
+
+@media (max-width: 550px) {
+    .text {
+        font-size: 20px;
+    }
+}

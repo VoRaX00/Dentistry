@@ -30,8 +30,14 @@
     margin-left: 1rem;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 900px) {
     .contact p span {
+        display: none;
+    }
+}
+
+@media (max-width: 600px) {
+    .contact p {
         display: none;
     }
 }

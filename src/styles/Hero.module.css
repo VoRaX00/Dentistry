@@ -124,3 +124,38 @@
     }
 
 }
+
+@media (max-width: 768px) {
+    .heroContent {
+        margin-top: 0;
+    }
+
+    .heroContent p {
+        font-size: 22px;
+        margin-bottom: 10px !important;
+    }
+
+    .hero img {
+        margin-top: 0;
+    }
+
+    .heroContent h1 {
+        margin-bottom: 10px !important;
+    }
+}
+
+@media (max-width: 600px) {
+    .heroContent p {
+        font-size: 18px;
+    }
+
+    .heroContent h1 {
+        font-size: 36px;
+    }
+}
+
+@media (max-width: 530px) {
+    .heroContent p {
+        width: 340px !important;
+    }
+}

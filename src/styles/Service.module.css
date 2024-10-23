@@ -19,3 +19,9 @@
     font-size: 24px;
     color: #2E8AE5;
 }
+
+@media (max-width: 550px) {
+    .text {
+        font-size: 18px;
+    }
+}
