@@ -41,9 +41,13 @@
 
 @media (max-width: 860px) {
     .container {
-        display: flex;
         flex-direction: column;
-        max-width: 767px !important;
-        width: 786px !important;
+        max-width: 100%;
+        width: 100%;
+    }
+
+    .services {
+        max-width: 100%;
+        width: 100%;
     }
 }

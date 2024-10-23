@@ -11,6 +11,7 @@
     min-height: 444px;
     padding: 20px;
     gap: 40px;
+    position: relative;
 }
 
 
@@ -66,7 +67,24 @@
 
 @media (max-width: 860px) {
     .bonuses {
-        max-width: 736px;
+        box-sizing: border-box;
+        max-width: 100%;
         width: 100%;
+    }
+
+    .bonus-item:nth-child(2) {
+        align-self: flex-start;
+        margin-bottom: 0;
+    }
+
+    .bonus-item:nth-child(3) {
+        align-self: center;
+        margin-bottom: 0;
+    }
+
+    .bonus-item {
+        margin-top: 10px;
+        align-self: flex-end;
+        margin-bottom: 20px;
     }
 }
