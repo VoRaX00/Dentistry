@@ -4,7 +4,7 @@
     padding-top: 60px;
 }
 
-@media (max-width: 920px) {
+@media (max-width: 942px) {
     .contacts {
         flex-direction: column;
         width: 100%;

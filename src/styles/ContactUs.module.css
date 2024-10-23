@@ -29,14 +29,19 @@
     margin-top: -20px;
 }
 
-@media (max-width: 920px) {
+@media (max-width: 942px) {
     .compareUs {
         width: 100%;
         max-width: 100%;
         box-sizing: border-box;
+        margin-bottom: 0;
     }
 
     .icons {
         margin-top: -20px;
     }
+}
+
+@media (max-width: 720px) {
+    
 }
