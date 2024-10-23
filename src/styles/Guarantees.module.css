@@ -25,3 +25,11 @@
         font-size: 20px;
     }
 }
+
+@media (max-width: 920px) {
+    .guarantees {
+        max-width: 100%;
+        width: 100%;
+        padding-left: 30px;
+    }
+}

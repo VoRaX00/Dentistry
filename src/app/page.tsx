@@ -19,12 +19,7 @@ export default function Home() {
             </Head>
             <Heading/>
             <Hero/>
-
-        </div>
-        <div className={styles.text}>
             <HowIt/>
-        </div>
-        <div className={styles.container}>
             <Services/>
             <Contacts/>
         </div>

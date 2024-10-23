@@ -9,6 +9,7 @@
     margin-bottom: 45px;
     width: 675px;
     height: 325px;
+    box-sizing: border-box;
 }
 
 .number {
@@ -22,4 +23,20 @@
     font-weight: bold;
     font-size: 36px;
     margin-bottom: 20px;
+}
+
+.icons {
+    margin-top: -20px;
+}
+
+@media (max-width: 920px) {
+    .compareUs {
+        width: 100%;
+        max-width: 100%;
+        box-sizing: border-box;
+    }
+
+    .icons {
+        margin-top: -20px;
+    }
 }

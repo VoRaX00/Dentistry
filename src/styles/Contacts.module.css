@@ -3,3 +3,10 @@
     align-items: flex-start;
     padding-top: 60px;
 }
+
+@media (max-width: 920px) {
+    .contacts {
+        flex-direction: column;
+        width: 100%;
+    }
+}

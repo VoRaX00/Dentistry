@@ -1,7 +1,5 @@
 .howIt {
     padding-top: 60px;
-    padding-left: 40px;
-    padding-right: 20px;
 }
 
 .howItHeader {
@@ -40,4 +38,5 @@
         justify-content: center;
         width: 100%;
     }
+
 }
