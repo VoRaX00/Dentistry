@@ -36,6 +36,14 @@
     .services, .bonuses {
         width: 100%;
         max-width: none;
+    }
+}
 
+@media (max-width: 860px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        max-width: 767px !important;
+        width: 786px !important;
     }
 }

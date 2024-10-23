@@ -30,6 +30,10 @@
 }
 
 @media (max-width: 850px) {
+    .howIt {
+        margin-top: -40px;
+    }
+
     .allCards {
         display: flex;
         flex-direction: column;

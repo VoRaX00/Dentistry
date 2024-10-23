@@ -63,3 +63,10 @@
         width: 455px;
     }
 }
+
+@media (max-width: 860px) {
+    .bonuses {
+        max-width: 736px;
+        width: 100%;
+    }
+}

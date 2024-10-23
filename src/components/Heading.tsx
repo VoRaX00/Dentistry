@@ -6,7 +6,7 @@ export function Heading() {
     return (
       <header className={styles.header}>
         <div className={styles.headerContent}>
-          <img src="logo.png" alt="logo" />
+          <img src="logo.png" alt="logo"/>
           <div className={styles.contact}>
             <p>
               <span>+7 996 385 52 20</span>
