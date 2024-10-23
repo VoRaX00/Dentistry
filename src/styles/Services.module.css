@@ -29,7 +29,19 @@
 .text {
     font-weight: bold;
     font-size: 36px;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
+}
+
+@media (max-width: 1920px) {
+    .container {
+        margin: auto !important;
+    }
+}
+
+@media (max-width: 1440px) {
+    .container {
+        margin: 0;
+    }
 }
 
 @media (max-width: 1000px) {

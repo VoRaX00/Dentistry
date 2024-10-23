@@ -45,6 +45,9 @@
 
 @media (max-width: 1090px) {
     .card {
+        padding-bottom: 0 !important;
+    }
+    .card {
         width: 100% !important;
         height: auto !important;
     }
@@ -52,6 +55,8 @@
         white-space: normal;
     }
 }
+
+
 
 @media (max-width: 550px) {
     .text {
