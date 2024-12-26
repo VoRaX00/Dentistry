@@ -15,7 +15,7 @@ export default function Home() {
             <Head>
                 <title>Стоматология Sekvoya Stom</title>
                 <meta name="description" content="Первая комплексная поликлиника города Хэйхэ" />
-                <link rel="icon" href="tooth.png" />
+                <link rel="icon" href="/favicon.ico" />
             </Head>
             <Heading/>
             <Hero/>
