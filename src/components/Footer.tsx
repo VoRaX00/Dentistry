@@ -1,4 +1,8 @@
 import styles from "@/styles/Footer.module.css"
+import {Messenger} from "@/components/Messenger";
+
+const WhatsAppLink: string = `https://wa.me/89963855220`
+const TelegramLink: string = `https://t.me/sekvoyastom`
 
 export function Footer() {
     return (
@@ -14,9 +18,14 @@ export function Footer() {
 
                 <div className={styles.bottomRow}>
                     <div className={styles.contacts}>
-                    <div className={styles.icons}>
-                            <img src="/messengers/telegram.png" alt="Telegram"/>
-                            <img src="/messengers/whatsApp.png" alt="WhatsApp"/>
+                        <div className={styles.icons}>
+                            <a href={TelegramLink} target="_blank" rel="noopener noreferrer">
+                                <img src="/messengers/telegram.png" alt="Telegram"/>
+                            </a>
+
+                            <a href={WhatsAppLink} target="_blank" rel="noopener noreferrer">
+                                <img src="/messengers/whatsApp.png" alt="WhatsApp"/>
+                            </a>
                         </div>
                     </div>
                     <div className={styles.copyright}>
