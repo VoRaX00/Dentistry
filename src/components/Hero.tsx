@@ -6,7 +6,6 @@ import {Button} from "@/components/Button";
 
 export function Hero() {
     const handleScroll = () => {
-        console.log("Кнопка нажата, начинаем прокрутку...");
         const section1 = document.getElementById("section1");
         if (section1) {
             section1.scrollIntoView({behavior: "smooth"});

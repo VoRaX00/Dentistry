@@ -3,7 +3,7 @@ import {Messenger} from "@/components/Messenger";
 
 export function ContactUs() {
     return (
-        <div className={styles.compareUs}>
+        <div id="section2" className={styles.compareUs}>
             <div className={styles.text}>
                 <span>Связаться с нами</span>
             </div>
